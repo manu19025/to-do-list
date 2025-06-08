@@ -12,6 +12,21 @@ h1 {
   font-size: 3em;
   margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+  .todo-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #taskInput, #taskTime {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #addTaskBtn {
+    width: 100%;
+  }
+} 
 .todo-container {
   width: 600px;
   background-color: #1e1e1e;
